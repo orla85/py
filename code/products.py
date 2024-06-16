@@ -1,3 +1,4 @@
+#讀取檔案
 products = []
 with open('products.csv','r',encoding='utf-8') as f:
     for line in f:
@@ -7,6 +8,7 @@ with open('products.csv','r',encoding='utf-8') as f:
         products.append([name,price])
 print(products)
 
+#使用者輸入
 while True:
     name = input('請輸入商品名稱：')
     if(name == 'q'):
