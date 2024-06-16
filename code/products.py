@@ -1,4 +1,4 @@
-#讀取檔案
+#讀取檔案 
 products = []
 with open('products.csv','r',encoding='utf-8') as f:
     for line in f:
